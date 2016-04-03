@@ -1,0 +1,31 @@
+{
+    "name": "andrew/attached-post-field-cmb2",
+    "description": "Post to post relation field for CMB2",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew McLagan",
+            "email": "andrew@ethicaljobs.com.au",
+            "homepage": "https://github.com/andrewmclagan",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["wordpress", "plugin", "metabox","post","relationship","attached"],
+    "homepage": "https://github.com/andrewmclagan/attached-post-field-cmb2",
+    "type": "wordpress-plugin",
+    "support": {
+        "issues": "https://github.com/andrewmclagan/attached-post-field-cmb2/issues",
+        "source": "https://github.com/andrewmclagan/attached-post-field-cmb2/"
+    },
+    "require": {
+        "php": ">7.0.0"
+    },
+    "suggest": {
+        "composer/installers": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AttachedPostField\\": "src"
+        }
+    }    
+}
